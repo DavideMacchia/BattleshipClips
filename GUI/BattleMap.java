@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.JFrame; //imports JFrame library
 import javax.swing.JButton; //imports JButton library
 import java.awt.GridLayout; //imports GridLayout library
@@ -12,7 +14,7 @@ public class BattleMap {
 	JFrame frame=new JFrame(); //creates frame
 	JButton[][] grid; //names the grid of buttons
 	static Cell [][] matrix;
-	ImageIcon water = new ImageIcon("water.png");
+	ImageIcon water = new ImageIcon("GUI/water.png");
 
 public BattleMap(){//constructor
   buttonMatrix(rows, cols);
